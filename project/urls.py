@@ -24,10 +24,10 @@ def home(request):
     return render(request,'home.html')
 
 def sobre(request):
-    return HttpResponse('sobre')
+    return HttpResponse('zecao')
 
 def contato(request):
-    return HttpResponse('contato')
+    return HttpResponse('zecatatu')
       
 urlpatterns = [
     path('admin/', admin.site.urls),
